@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1408</width>
+    <height>627</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="tabletTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>INSCRIÇÃO PMU</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>ícones/aluno.ico</normaloff>ícones/aluno.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: linear-gradient(to bottom, white, purple);
+background-color: rgb(23, 134, 231);</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="7" column="16" colspan="6">
+     <widget class="QSplitter" name="splitter_36">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_37">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>E-MAIL</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="email">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="8" column="15">
+     <spacer name="horizontalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="8" column="19" colspan="2">
+     <widget class="QSplitter" name="splitter_24">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_8">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>ESTADO CIVIL</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="estadocivil">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="9" column="9" colspan="4">
+     <widget class="QSplitter" name="splitter_30">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_12">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>ENDEREÇO</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="endereco">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="7" column="7">
+     <widget class="QSplitter" name="splitter_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>HORÁRIO</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="horario">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;
+</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="9" column="7">
+     <widget class="QSplitter" name="splitter_8">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_11">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>T. MORADIA</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="tmoradia">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;
+</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="9" column="16" colspan="2">
+     <widget class="QSplitter" name="splitter_26">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_14">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>CEP</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="cep">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="8" column="9">
+     <widget class="QSplitter" name="splitter_33">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>IDADE</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="idade">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="8" column="16" colspan="2">
+     <widget class="QSplitter" name="splitter_25">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>SEXO</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="sexo">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="QSplitter" name="splitter_6">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_9">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>NATURALIDADE</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="naturalidade">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="10" column="7">
+     <widget class="QSplitter" name="splitter_9">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_18">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>RG</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="rg">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="8" column="7">
+     <widget class="QSplitter" name="splitter_35">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>DATA NASC</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="datanasc">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="14" column="5">
+     <widget class="QSplitter" name="splitter_13">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_28">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>RENDA</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="renda">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="10" column="2">
+     <widget class="QSplitter" name="splitter_11">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_16">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(0, 0, 0);
+text-decoration: underline;</string>
+       </property>
+       <property name="text">
+        <string>TELEFONE</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="telefone1">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="14" column="2">
+     <widget class="QSplitter" name="splitter_12">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_27">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>SITUAÇÃO</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="situacao">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="14" column="9">
+     <widget class="QSplitter" name="splitter_16">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_30">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>Nº MORADORES</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="nummoradores">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="7" column="2" colspan="4">
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_34">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(0, 0, 0);
+text-decoration: underline;</string>
+       </property>
+       <property name="text">
+        <string>CURSO</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="curso">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="14" column="14">
+     <widget class="QSplitter" name="splitter_19">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_32">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>RESIDÊNCIA</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="residencia">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="10" column="11" colspan="2">
+     <widget class="QSplitter" name="splitter_29">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_19">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>ÓRGÃO EXP</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="orgaoexp">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="8" column="23">
+     <widget class="QFrame" name="frame_2">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="2" colspan="4">
+     <widget class="QSplitter" name="splitter_5">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(0, 0, 0);
+text-decoration: underline;</string>
+       </property>
+       <property name="text">
+        <string>NOME</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="nome">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="16" column="9">
+     <widget class="QSplitter" name="splitter_17">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_38">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>QUANTOS TRABALHAM?</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="numtrabalham">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="10" column="16" colspan="2">
+     <widget class="QSplitter" name="splitter_27">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_23">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>DEFICIÊNCIA?</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="deficiencia">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="8" column="11" colspan="4">
+     <widget class="QSplitter" name="splitter_23">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_22">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>NOME DA MÃE</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="filiacao">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="8" column="21">
+     <widget class="QSplitter" name="splitter_32">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_6">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>COR/ RAÇA</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cor">
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="10" column="19" colspan="3">
+     <widget class="QSplitter" name="splitter_21">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_24">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>ESCOLARIDADE</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="escolaridade">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="9" column="19" colspan="3">
+     <widget class="QSplitter" name="splitter_22">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_15">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+       </property>
+       <property name="text">
+        <string>BAIRRO</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="bairro">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="10" column="14">
+     <widget class="QSplitter" name="splitter_28">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_21">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>CPF</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="cpf">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="9" column="14">
+     <widget class="QSplitter" name="splitter_31">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_13">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>Nº</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="numero">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="7" column="11" colspan="4">
+     <widget class="QSplitter" name="splitter_4">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_42">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>JÁ FEZ CURSO?</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="fezcurso">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="13" column="21" rowspan="5" colspan="3">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="botao_2">
+         <property name="font">
+          <font>
+           <family>Monotype Corsiva</family>
+           <pointsize>18</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0.011, y1:0.136364, x2:1, y2:0, stop:0.346591 rgba(3, 144, 200, 255), stop:1 rgba(255, 255, 255, 255));
+font:18pt &quot;Monotype Corsiva&quot;;
+border-radius: 8px;
+selection-color: rgb(255, 31, 2);
+border: 3px solid #fff
+</string>
+         </property>
+         <property name="text">
+          <string>CADASTRAR</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>ícones/ok.ico</normaloff>ícones/ok.ico</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="botao_1">
+         <property name="font">
+          <font>
+           <family>Monotype Corsiva</family>
+           <pointsize>18</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0.011, y1:0.136364, x2:1, y2:0, stop:0.346591 rgba(3, 144, 200, 255), stop:1 rgba(255, 255, 255, 255));
+font:18pt &quot;Monotype Corsiva&quot;;
+border-radius: 8px;
+selection-color: rgb(255, 31, 2);
+border: 3px solid #fff
+</string>
+         </property>
+         <property name="text">
+          <string> LIMPAR</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>ícones/gui_eraser_icon_157160.ico</normaloff>ícones/gui_eraser_icon_157160.ico</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="botao_3">
+         <property name="font">
+          <font>
+           <family>Monotype Corsiva</family>
+           <pointsize>18</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0.011, y1:0.136364, x2:1, y2:0, stop:0.346591 rgba(3, 144, 200, 255), stop:1 rgba(255, 255, 255, 255));
+font:18pt &quot;Monotype Corsiva&quot;;
+border-radius: 8px;
+selection-color: rgb(255, 31, 2);
+border: 3px solid #fff</string>
+         </property>
+         <property name="text">
+          <string>SAIR</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>ícones/cancelar.ico</normaloff>ícones/cancelar.ico</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="10" column="4" colspan="2">
+     <widget class="QSplitter" name="splitter_10">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_17">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>TELEFONE</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="telefone2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="9" column="4" colspan="2">
+     <widget class="QSplitter" name="splitter_7">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_10">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>UF</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="uf">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="7" column="9">
+     <widget class="QSplitter" name="splitter_3">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_36">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>DATA INÍCIO</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="datainicio">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="10" column="9">
+     <widget class="QSplitter" name="splitter_34">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_20">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>DATA EMISSÃO</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="dataemissao">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="17" column="9">
+     <widget class="QSplitter" name="splitter_18">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_31">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>RENDA DOS MORADORES</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="rendamoradores">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="14" column="16" colspan="2">
+     <widget class="QSplitter" name="splitter_14">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_40">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>DATA INSCRIÇÃO</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="datainscricao">
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(158, 2, 255);
+background-color: rgb(255, 255, 255);
+gridline-color: rgb(192, 3, 255);
+font: 12pt &quot;Imprint MT Shadow&quot;;
+border-radius: 7px;
+color:black</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="16" column="14">
+     <widget class="QSplitter" name="splitter_20">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_33">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>VALOR</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="valorresidencia">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="16" column="16" colspan="5">
+     <widget class="QSplitter" name="splitter_15">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="label_39">
+       <property name="font">
+        <font>
+         <family>Imprint MT Shadow</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Imprint MT Shadow&quot;;
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>OBSERVAÇÃO</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="observacao">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 13pt &quot;Monotype Corsiva&quot;;
+border-radius: 7px;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="8" column="10">
+     <spacer name="horizontalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="13" column="2" colspan="3">
+     <widget class="QLabel" name="label_26">
+      <property name="font">
+       <font>
+        <family>Bahnschrift Light Condensed</family>
+        <pointsize>20</pointsize>
+        <weight>3</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 26 20pt &quot;Bahnschrift Light Condensed&quot;;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>Dados Profissionais</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="6">
+     <spacer name="horizontalSpacer_6">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="18" column="2">
+     <widget class="QLabel" name="label_35">
+      <property name="text">
+       <string>Criado por Klisman rDs</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="3">
+     <spacer name="horizontalSpacer_7">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="13" column="9">
+     <widget class="QLabel" name="label_29">
+      <property name="font">
+       <font>
+        <family>Bahnschrift Light Condensed</family>
+        <pointsize>20</pointsize>
+        <weight>3</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 26 20pt &quot;Bahnschrift Light Condensed&quot;;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>Composição Familiar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="13">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="8" column="8">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="0" rowspan="3" colspan="24">
+     <widget class="QLabel" name="label_25">
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold Condensed</family>
+        <pointsize>24</pointsize>
+        <weight>7</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 63 24pt &quot;Bahnschrift SemiBold Condensed&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Bahnschrift SemiBold Condensed'; font-size:24pt; font-weight:56; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:600; color:#000000;&quot;&gt;INSCRIÇÃO&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt; CENTRO PROFISSIONALIZANTE&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Diretoria de Formação Profissional e Geração de Emprego e Renda&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="2">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="9">
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="9" column="18">
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="13" column="14">
+     <widget class="QLabel" name="label_41">
+      <property name="font">
+       <font>
+        <family>Bahnschrift Light Condensed</family>
+        <pointsize>20</pointsize>
+        <weight>3</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 26 20pt &quot;Bahnschrift Light Condensed&quot;;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Bahnschrift Light Condensed'; font-size:20pt; font-weight:24; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Moradia&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0" colspan="24">
+     <widget class="Line" name="line_6">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" colspan="23">
+     <widget class="Line" name="line_7">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>ícones/LOGO PNG.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_25</zorder>
+   <zorder>splitter_28</zorder>
+   <zorder>splitter_25</zorder>
+   <zorder>splitter_12</zorder>
+   <zorder>splitter_27</zorder>
+   <zorder>splitter_31</zorder>
+   <zorder>splitter_11</zorder>
+   <zorder>splitter_34</zorder>
+   <zorder>splitter_26</zorder>
+   <zorder>splitter_7</zorder>
+   <zorder>splitter_3</zorder>
+   <zorder>splitter_24</zorder>
+   <zorder>splitter_6</zorder>
+   <zorder>splitter_8</zorder>
+   <zorder>splitter_29</zorder>
+   <zorder>splitter</zorder>
+   <zorder>splitter_2</zorder>
+   <zorder>splitter_5</zorder>
+   <zorder>splitter_9</zorder>
+   <zorder>splitter_30</zorder>
+   <zorder>splitter_4</zorder>
+   <zorder>label_26</zorder>
+   <zorder>splitter_10</zorder>
+   <zorder>splitter_35</zorder>
+   <zorder>splitter_33</zorder>
+   <zorder>splitter_13</zorder>
+   <zorder>label_41</zorder>
+   <zorder>splitter_19</zorder>
+   <zorder>splitter_14</zorder>
+   <zorder>splitter_15</zorder>
+   <zorder>verticalSpacer_2</zorder>
+   <zorder>line_6</zorder>
+   <zorder>verticalSpacer</zorder>
+   <zorder>frame_2</zorder>
+   <zorder>frame</zorder>
+   <zorder>label</zorder>
+   <zorder>label_29</zorder>
+   <zorder>splitter_16</zorder>
+   <zorder>splitter_17</zorder>
+   <zorder>splitter_23</zorder>
+   <zorder>splitter_32</zorder>
+   <zorder>splitter_22</zorder>
+   <zorder>splitter_21</zorder>
+   <zorder>horizontalSpacer</zorder>
+   <zorder>horizontalSpacer_2</zorder>
+   <zorder>horizontalSpacer_3</zorder>
+   <zorder>horizontalSpacer_4</zorder>
+   <zorder>horizontalSpacer_5</zorder>
+   <zorder>horizontalSpacer_6</zorder>
+   <zorder>horizontalSpacer_7</zorder>
+   <zorder>label_35</zorder>
+   <zorder>splitter_18</zorder>
+   <zorder>splitter_20</zorder>
+   <zorder>splitter_36</zorder>
+   <zorder>line_7</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>curso</tabstop>
+  <tabstop>horario</tabstop>
+  <tabstop>datainicio</tabstop>
+  <tabstop>fezcurso</tabstop>
+  <tabstop>nome</tabstop>
+  <tabstop>datanasc</tabstop>
+  <tabstop>idade</tabstop>
+  <tabstop>filiacao</tabstop>
+  <tabstop>sexo</tabstop>
+  <tabstop>estadocivil</tabstop>
+  <tabstop>cor</tabstop>
+  <tabstop>naturalidade</tabstop>
+  <tabstop>uf</tabstop>
+  <tabstop>tmoradia</tabstop>
+  <tabstop>endereco</tabstop>
+  <tabstop>numero</tabstop>
+  <tabstop>cep</tabstop>
+  <tabstop>bairro</tabstop>
+  <tabstop>telefone1</tabstop>
+  <tabstop>telefone2</tabstop>
+  <tabstop>rg</tabstop>
+  <tabstop>dataemissao</tabstop>
+  <tabstop>orgaoexp</tabstop>
+  <tabstop>cpf</tabstop>
+  <tabstop>deficiencia</tabstop>
+  <tabstop>escolaridade</tabstop>
+  <tabstop>situacao</tabstop>
+  <tabstop>renda</tabstop>
+  <tabstop>nummoradores</tabstop>
+  <tabstop>numtrabalham</tabstop>
+  <tabstop>rendamoradores</tabstop>
+  <tabstop>residencia</tabstop>
+  <tabstop>valorresidencia</tabstop>
+  <tabstop>datainscricao</tabstop>
+  <tabstop>observacao</tabstop>
+  <tabstop>botao_2</tabstop>
+  <tabstop>botao_1</tabstop>
+  <tabstop>botao_3</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>botao_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1339</x>
+     <y>554</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>703</x>
+     <y>313</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
